@@ -1,6 +1,6 @@
 <?php
 
-namespace SLASH2NL\NovaBackButton;
+namespace Workup\NovaBackButton;
 
 use Illuminate\Mail\Markdown;
 use Laravel\Nova\Card;

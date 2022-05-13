@@ -1,12 +1,12 @@
 # Nova Back Button
 
-[![Latest Stable Version](https://poser.pugx.org/slash2nl/nova-back-button/v/stable)](https://packagist.org/packages/slash2nl/nova-back-button)
-[![Total Downloads](https://poser.pugx.org/slash2nl/nova-back-button/downloads)](https://packagist.org/packages/slash2nl/nova-back-button)
+[![Latest Stable Version](https://poser.pugx.org/Workup/nova-back-button/v/stable)](https://packagist.org/packages/Workup/nova-back-button)
+[![Total Downloads](https://poser.pugx.org/Workup/nova-back-button/downloads)](https://packagist.org/packages/Workup/nova-back-button)
 
 Adds a card that implements a back button to Nova, the content can be fully customized. The url is called through the router and without a url set a history.go(-1) is called.
 
-![image](https://github.com/slash2nl/nova-back-button/blob/master/.github/example-a.png)
-![image](https://github.com/slash2nl/nova-back-button/blob/master/.github/example-b.png)
+![image](https://github.com/Workup/nova-back-button/blob/master/.github/example-a.png)
+![image](https://github.com/Workup/nova-back-button/blob/master/.github/example-b.png)
 
 ## Installation
 
@@ -16,7 +16,7 @@ You can install the package in to a Laravel app that uses [Nova](https://nova.la
 - Install version ^2.0 for Laravel Nova ^4.0
 
 ```bash
-composer require slash2nl/nova-back-button
+composer require Workup/nova-back-button
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ composer require slash2nl/nova-back-button
 [Register your new card](https://nova.laravel.com/docs/4.0/customization/cards.html#registering-cards).
 
 ```php
-use SLASH2NL\NovaBackButton\NovaBackButton;
+use Workup\NovaBackButton\NovaBackButton;
 
 public function cards()
 {

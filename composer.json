@@ -1,5 +1,5 @@
 {
-    "name": "slash2nl/nova-back-button",
+    "name": "workup/nova-back-button",
     "description": "A Laravel Nova card to display a back button.",
     "keywords": [
         "laravel",
@@ -10,17 +10,17 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
-        "laravel/nova": "^4.0"
+        "workup/nova": "^3.0"
     },
     "autoload": {
         "psr-4": {
-            "SLASH2NL\\NovaBackButton\\": "src/"
+            "Workup\\NovaBackButton\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "SLASH2NL\\NovaBackButton\\CardServiceProvider"
+                "Workup\\NovaBackButton\\CardServiceProvider"
             ]
         }
     },
