@@ -1,6 +1,6 @@
 <?php
 
-namespace SLASH2NL\NovaBackButton;
+namespace Workup\NovaBackButton;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;
