@@ -2,8 +2,8 @@
 
 namespace Workup\NovaBackButton;
 
-use Illuminate\Mail\Markdown;
 use Laravel\Nova\Card;
+use Illuminate\Mail\Markdown;
 
 class NovaBackButton extends Card
 {

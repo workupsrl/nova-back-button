@@ -8,9 +8,15 @@
         "button"
     ],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ],
     "require": {
-        "php": "^7.3|^8.0",
-        "workup/nova": "^3.0"
+        "php": ">=8.0",
+        "laravel/nova": "^4.0"
     },
     "autoload": {
         "psr-4": {
